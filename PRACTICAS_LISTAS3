@@ -1,0 +1,18 @@
+numeros = [1,2,3,2,5,2,6,8,2]
+print(numeros.count(2))
+
+print()
+
+frutas = ['manzana', 'banana', 'naranja', 'pera', 'sandia', 'peregil']
+print(len(frutas))
+
+
+print()
+
+# alumno, notas y promedio de las notas
+notas = [7,8,4,9,7,10,6,7,6,7]
+frecuencia = notas.count(7)
+total =len(notas)
+porcentaje = (frecuencia/total) * 100
+
+print(f"El numero 7 aparece {frecuencia} veces, siendo el {porcentaje:.2f} % de la lista.")

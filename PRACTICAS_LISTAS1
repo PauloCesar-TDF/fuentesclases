@@ -1,0 +1,18 @@
+numeros = [1,2,3,4,5,99,6,8,10]
+print(numeros)
+
+numeros.sort()
+print(numeros)
+
+print()
+
+nombre = ['ana', 'mario', 'zoe', 'juan', 'luis']
+print(nombre)
+
+nombre.sort()
+print(nombre)
+print()
+
+nombre.sort(reverse=True)
+print(nombre)
+print()

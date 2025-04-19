@@ -1,0 +1,38 @@
+ # DICCIONARIO VACIO
+dic_vacio = {}
+
+ # DICCIONARIO CON ELEMENTOS
+alumno = {
+    "nombre": "Ana", 
+    "edad": 25, 
+    "carrera": "Ingenieria"
+}
+
+# DICCIONARIO ANIDADO
+frutas = {
+    "manzana": {"peso": 150, "color": "rojo"},
+    "platano": {"peso": 120, "color": "amarillo"} 
+}
+
+print (alumno["nombre"])
+
+print (alumno.get("altura"))    #para en caso que no exista, no nos arroje error
+print (alumno.get("edad"))
+
+alumno ["edad"] = 28        #cambiamos el valor de la edad
+print (alumno["edad"])
+print()
+
+alumno["sexo"] = "Femenino" #agregamos una nueva clave: sexo
+print(alumno.get("sexo"))
+
+print (alumno.keys())   # MUESTRA LAS CLAVES DEFINIDAS
+print (alumno.values())  # NOS DEVUELVE LOS VALORES DE ESAS CLAVES
+print()
+print (alumno.items())  # NOS DEVUELVE LAS CLAVES Y VALORES
+print()
+print (alumno.pop("edad"))  # ELIMINAMOS LA CLAVE Y VALOR : edad
+print (alumno.items())
+
+if "nombre" in alumno:
+    print("la clave 'nombre' existe")

@@ -1,0 +1,12 @@
+# TUPLA VACIA
+tupla_vacia = ()
+
+# TUPLA CON ELEMENTOS
+coordenadas = (10, 20)
+mixta = (1, 'a', [3, 4])
+
+
+# cuando estamos definiendo una tupla de un solo elemento tener en cuenta como se carga:
+correcto = (5,)  # es una tupla
+incorrecto = (5) # es un entero, NO una tupla
+

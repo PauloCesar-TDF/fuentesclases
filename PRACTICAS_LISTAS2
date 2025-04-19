@@ -1,0 +1,18 @@
+numeros = [5,2,9,1]
+print(numeros)
+ordenada = sorted(numeros, reverse=True)
+print(ordenada)
+print()
+
+palabras = ["Pera", "Kiwi", "Manzana", "Zanahoria"]
+print(palabras)
+print()
+palabras.sort()
+print(palabras)
+print()
+palabras.sort(reverse=True)
+print(palabras)
+print()
+
+palabras.sort(key=str.lower)
+print(palabras)

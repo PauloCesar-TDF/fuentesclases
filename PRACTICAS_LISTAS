@@ -1,0 +1,33 @@
+# LISTA VACIA
+lista_vacia = []
+
+# LISTA CON NUMEROS
+numeros = [1,2,3,4,5]
+mixta = [10, "Hola", True, [1,2]] # lista con diferentes tipos
+
+print (mixta[1])
+print (numeros [-1])
+print ()
+# print(dir(numeros))
+
+print(numeros)
+numeros.append(6)
+numeros.append(20)
+print(numeros)
+print()
+
+numeros.insert(2, 99)
+print(numeros)
+print()
+
+numeros.extend([8,15,46])
+print(numeros)
+print()
+
+numeros.remove(20)  #borra el elementos 20
+print(numeros)
+print()
+
+ultimo = numeros.pop()  # borra el ultimo elemento
+print(numeros)
+
